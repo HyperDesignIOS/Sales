@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40F2A0AA2099E49F006BA252 /* ReviewVisit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F2A0A92099E49F006BA252 /* ReviewVisit.storyboard */; };
 		7D1D8BA420972DD8003A66AA /* Customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D8BA320972DD8003A66AA /* Customer.storyboard */; };
 		7D28ACFE2096083D004E8C03 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ACFD2096083D004E8C03 /* LoginVC.swift */; };
 		7D719BDE209617D900923742 /* Visit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D719BDD209617D900923742 /* Visit.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40F2A0A92099E49F006BA252 /* ReviewVisit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReviewVisit.storyboard; sourceTree = "<group>"; };
 		7D1D8BA320972DD8003A66AA /* Customer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Customer.storyboard; sourceTree = "<group>"; };
 		7D28ACFD2096083D004E8C03 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Login/LoginVC.swift; sourceTree = "<group>"; };
 		7D719BDD209617D900923742 /* Visit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Visit.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				7D88A89D2095DD6D0004438A /* Login.storyboard */,
 				7D719BDD209617D900923742 /* Visit.storyboard */,
 				7D1D8BA320972DD8003A66AA /* Customer.storyboard */,
+				40F2A0A92099E49F006BA252 /* ReviewVisit.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				7D1D8BA420972DD8003A66AA /* Customer.storyboard in Resources */,
 				7D88A89E2095DD6D0004438A /* Login.storyboard in Resources */,
 				7D88A8932095D7D10004438A /* LaunchScreen.storyboard in Resources */,
+				40F2A0AA2099E49F006BA252 /* ReviewVisit.storyboard in Resources */,
 				7D88A8902095D7D10004438A /* Assets.xcassets in Resources */,
 				7D719BDE209617D900923742 /* Visit.storyboard in Resources */,
 				7D88A88E2095D7D10004438A /* Main.storyboard in Resources */,
