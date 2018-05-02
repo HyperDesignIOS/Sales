@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbI-2c-wTx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbI-2c-wTx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,14 +14,14 @@
         <scene sceneID="JkT-M1-0xg">
             <objects>
                 <viewController storyboardIdentifier="AddCustomerID" id="wbI-2c-wTx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="odd-j5-qZu">
+                    <view key="view" contentMode="scaleToFill" id="odd-j5-qZu" userLabel="main">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LYU-li-II0">
                                 <rect key="frame" x="0.0" y="20" width="377" height="647"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zv3-dl-XqQ">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zv3-dl-XqQ" userLabel="container">
                                         <rect key="frame" x="0.0" y="0.0" width="377" height="647"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IlZ-lK-G8c">
@@ -283,7 +283,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="zv3-dl-XqQ" firstAttribute="leading" secondItem="LYU-li-II0" secondAttribute="leading" id="0GV-PO-agx"/>
-                                    <constraint firstAttribute="trailing" secondItem="zv3-dl-XqQ" secondAttribute="trailing" constant="-2" id="JVl-L0-C9d"/>
+                                    <constraint firstAttribute="trailing" secondItem="zv3-dl-XqQ" secondAttribute="trailing" id="2Zt-OK-HV0"/>
                                     <constraint firstItem="zv3-dl-XqQ" firstAttribute="top" secondItem="LYU-li-II0" secondAttribute="top" id="bMs-NE-e3n"/>
                                     <constraint firstItem="zv3-dl-XqQ" firstAttribute="centerY" secondItem="LYU-li-II0" secondAttribute="centerY" id="evj-SN-kE0"/>
                                     <constraint firstAttribute="bottom" secondItem="zv3-dl-XqQ" secondAttribute="bottom" id="ofS-qW-JXw"/>
@@ -294,8 +294,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LYU-li-II0" firstAttribute="bottom" secondItem="ZT1-ip-WPG" secondAttribute="bottom" id="NEZ-a9-xRI"/>
+                            <constraint firstItem="ZT1-ip-WPG" firstAttribute="trailing" secondItem="LYU-li-II0" secondAttribute="trailing" id="f8e-bV-dek"/>
                             <constraint firstItem="LYU-li-II0" firstAttribute="top" secondItem="ZT1-ip-WPG" secondAttribute="top" id="n7o-Eg-sfk"/>
-                            <constraint firstItem="LYU-li-II0" firstAttribute="leading" secondItem="odd-j5-qZu" secondAttribute="leading" id="tMM-WK-yJU"/>
+                            <constraint firstItem="LYU-li-II0" firstAttribute="leading" secondItem="ZT1-ip-WPG" secondAttribute="leading" id="tMM-WK-yJU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZT1-ip-WPG"/>
                     </view>

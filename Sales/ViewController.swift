@@ -10,12 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let storyboard = UIStoryboard(name: "AddCustomer", bundle: nil)
+    @IBAction func addCustomerButton(_ sender: Any) {
+        
+        let storyboard =
+UIStoryboard(name: "AddCustomer", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "AddCustomerID")
         //self.present(controller, animated: true, completion: nil)
         self.show(controller, sender: self)
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
     }
 
