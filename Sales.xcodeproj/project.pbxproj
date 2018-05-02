@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40F2A0AA2099E49F006BA252 /* ReviewVisit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F2A0A92099E49F006BA252 /* ReviewVisit.storyboard */; };
+		40F2A0AC209A1014006BA252 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F2A0AB209A1014006BA252 /* SideMenu.storyboard */; };
 		7D1D8BA420972DD8003A66AA /* Customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D8BA320972DD8003A66AA /* Customer.storyboard */; };
 		7D28ACFE2096083D004E8C03 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ACFD2096083D004E8C03 /* LoginVC.swift */; };
 		7D486D752099D0AD0063A301 /* AddCustomer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D486D742099D0AD0063A301 /* AddCustomer.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		40F2A0A92099E49F006BA252 /* ReviewVisit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReviewVisit.storyboard; sourceTree = "<group>"; };
+		40F2A0AB209A1014006BA252 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		7D1D8BA320972DD8003A66AA /* Customer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Customer.storyboard; sourceTree = "<group>"; };
 		7D28ACFD2096083D004E8C03 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Login/LoginVC.swift; sourceTree = "<group>"; };
 		7D486D742099D0AD0063A301 /* AddCustomer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddCustomer.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				7D1D8BA320972DD8003A66AA /* Customer.storyboard */,
 				40F2A0A92099E49F006BA252 /* ReviewVisit.storyboard */,
 				7D486D742099D0AD0063A301 /* AddCustomer.storyboard */,
+				40F2A0AB209A1014006BA252 /* SideMenu.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				7D1D8BA420972DD8003A66AA /* Customer.storyboard in Resources */,
 				7D88A89E2095DD6D0004438A /* Login.storyboard in Resources */,
 				7D88A8932095D7D10004438A /* LaunchScreen.storyboard in Resources */,
+				40F2A0AC209A1014006BA252 /* SideMenu.storyboard in Resources */,
 				40F2A0AA2099E49F006BA252 /* ReviewVisit.storyboard in Resources */,
 				7D486D752099D0AD0063A301 /* AddCustomer.storyboard in Resources */,
 				7D88A8902095D7D10004438A /* Assets.xcassets in Resources */,
