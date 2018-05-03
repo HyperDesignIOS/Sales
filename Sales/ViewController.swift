@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBAction func addCustomerButton(_ sender: Any) {
         
         let storyboard =
-UIStoryboard(name: "Login", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "LoginID")
+UIStoryboard(name: "ReviewVisit", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "ReviewVisitID")
         //self.present(controller, animated: true, completion: nil)
         self.show(controller, sender: self)
     }
