@@ -15,6 +15,8 @@
 		40F2A0AC209A1014006BA252 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F2A0AB209A1014006BA252 /* SideMenu.storyboard */; };
 		7D1D8BA420972DD8003A66AA /* Customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D8BA320972DD8003A66AA /* Customer.storyboard */; };
 		7D28ACFE2096083D004E8C03 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ACFD2096083D004E8C03 /* LoginVC.swift */; };
+		7D2BD841209F07F700D967C1 /* serverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BD840209F07F700D967C1 /* serverManager.swift */; };
+		7D2BD843209F0B2A00D967C1 /* apiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BD842209F0B2A00D967C1 /* apiRequest.swift */; };
 		7D88A8892095D7D10004438A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88A8882095D7D10004438A /* AppDelegate.swift */; };
 		7D88A88B2095D7D10004438A /* VisitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88A88A2095D7D10004438A /* VisitVC.swift */; };
 		7D88A88E2095D7D10004438A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D88A88C2095D7D10004438A /* Main.storyboard */; };
@@ -35,7 +37,9 @@
 		40DBBEE8209B5B3200AA22C4 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
 		40F2A0AB209A1014006BA252 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		7D1D8BA320972DD8003A66AA /* Customer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Customer.storyboard; sourceTree = "<group>"; };
-		7D28ACFD2096083D004E8C03 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Login/LoginVC.swift; sourceTree = "<group>"; };
+		7D28ACFD2096083D004E8C03 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7D2BD840209F07F700D967C1 /* serverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serverManager.swift; sourceTree = "<group>"; };
+		7D2BD842209F0B2A00D967C1 /* apiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiRequest.swift; sourceTree = "<group>"; };
 		7D88A8852095D7D10004438A /* Sales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D88A8882095D7D10004438A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D88A88A2095D7D10004438A /* VisitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitVC.swift; sourceTree = "<group>"; };
@@ -66,6 +70,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7D2BD83B209F05F300D967C1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7D28ACFD2096083D004E8C03 /* LoginVC.swift */,
+			);
+			name = Login;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7D2BD83C209F062000D967C1 /* Visit */ = {
+			isa = PBXGroup;
+			children = (
+				40DBBEE0209B462E00AA22C4 /* AddVisitVC.swift */,
+				7D88A88A2095D7D10004438A /* VisitVC.swift */,
+			);
+			path = Visit;
+			sourceTree = "<group>";
+		};
+		7D2BD83D209F064B00D967C1 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				40DBBEE4209B53FF00AA22C4 /* AddCustomerVC.swift */,
+				40DBBEE2209B520000AA22C4 /* CustomerVC.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		7D2BD83E209F066D00D967C1 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				40DBBEE8209B5B3200AA22C4 /* SideMenuTableViewCell.swift */,
+				40DBBEE6209B564D00AA22C4 /* SideMenuTableViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		7D2BD83F209F068F00D967C1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BD840209F07F700D967C1 /* serverManager.swift */,
+				7D2BD842209F0B2A00D967C1 /* apiRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		7D88A87C2095D7D10004438A = {
 			isa = PBXGroup;
 			children = (
@@ -87,13 +136,14 @@
 		7D88A8872095D7D10004438A /* Sales */ = {
 			isa = PBXGroup;
 			children = (
+				7D88A8882095D7D10004438A /* AppDelegate.swift */,
+				7D88A8912095D7D10004438A /* LaunchScreen.storyboard */,
 				7D88A89C2095D8180004438A /* Controller */,
 				7D88A89B2095D80A0004438A /* View */,
 				7D88A89A2095D7F80004438A /* Model */,
-				7D88A8882095D7D10004438A /* AppDelegate.swift */,
+				7D2BD83F209F068F00D967C1 /* Network */,
 				7D88A88C2095D7D10004438A /* Main.storyboard */,
 				7D88A88F2095D7D10004438A /* Assets.xcassets */,
-				7D88A8912095D7D10004438A /* LaunchScreen.storyboard */,
 				7D88A8942095D7D10004438A /* Info.plist */,
 			);
 			path = Sales;
@@ -119,13 +169,10 @@
 		7D88A89C2095D8180004438A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7D28ACFD2096083D004E8C03 /* LoginVC.swift */,
-				7D88A88A2095D7D10004438A /* VisitVC.swift */,
-				40DBBEE0209B462E00AA22C4 /* AddVisitVC.swift */,
-				40DBBEE2209B520000AA22C4 /* CustomerVC.swift */,
-				40DBBEE4209B53FF00AA22C4 /* AddCustomerVC.swift */,
-				40DBBEE6209B564D00AA22C4 /* SideMenuTableViewController.swift */,
-				40DBBEE8209B5B3200AA22C4 /* SideMenuTableViewCell.swift */,
+				7D2BD83B209F05F300D967C1 /* Login */,
+				7D2BD83C209F062000D967C1 /* Visit */,
+				7D2BD83D209F064B00D967C1 /* Customer */,
+				7D2BD83E209F066D00D967C1 /* SideMenu */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,12 +286,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sales/Pods-Sales-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -276,10 +323,12 @@
 				40DBBEE1209B462E00AA22C4 /* AddVisitVC.swift in Sources */,
 				7D88A88B2095D7D10004438A /* VisitVC.swift in Sources */,
 				40DBBEE5209B53FF00AA22C4 /* AddCustomerVC.swift in Sources */,
+				7D2BD841209F07F700D967C1 /* serverManager.swift in Sources */,
 				40DBBEE9209B5B3200AA22C4 /* SideMenuTableViewCell.swift in Sources */,
 				7D88A8892095D7D10004438A /* AppDelegate.swift in Sources */,
 				40DBBEE3209B520000AA22C4 /* CustomerVC.swift in Sources */,
 				7D28ACFE2096083D004E8C03 /* LoginVC.swift in Sources */,
+				7D2BD843209F0B2A00D967C1 /* apiRequest.swift in Sources */,
 				40DBBEE7209B564D00AA22C4 /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
