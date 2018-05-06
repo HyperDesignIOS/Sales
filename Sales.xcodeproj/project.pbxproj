@@ -70,6 +70,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		402A3C6A209F241F0019E4B7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7D88A89D2095DD6D0004438A /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		402A3C6B209F24300019E4B7 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D8BA320972DD8003A66AA /* Customer.storyboard */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		402A3C6D209F246E0019E4B7 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				40F2A0AB209A1014006BA252 /* SideMenu.storyboard */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		402A3C6E209F24890019E4B7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7D88A88C2095D7D10004438A /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		7D2BD83B209F05F300D967C1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +174,6 @@
 				7D88A89B2095D80A0004438A /* View */,
 				7D88A89A2095D7F80004438A /* Model */,
 				7D2BD83F209F068F00D967C1 /* Network */,
-				7D88A88C2095D7D10004438A /* Main.storyboard */,
 				7D88A88F2095D7D10004438A /* Assets.xcassets */,
 				7D88A8942095D7D10004438A /* Info.plist */,
 			);
@@ -159,9 +190,10 @@
 		7D88A89B2095D80A0004438A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7D88A89D2095DD6D0004438A /* Login.storyboard */,
-				7D1D8BA320972DD8003A66AA /* Customer.storyboard */,
-				40F2A0AB209A1014006BA252 /* SideMenu.storyboard */,
+				402A3C6E209F24890019E4B7 /* Main */,
+				402A3C6B209F24300019E4B7 /* Customer */,
+				402A3C6A209F241F0019E4B7 /* Login */,
+				402A3C6D209F246E0019E4B7 /* SideMenu */,
 			);
 			path = View;
 			sourceTree = "<group>";
